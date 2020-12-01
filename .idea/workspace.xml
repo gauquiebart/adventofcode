@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="" />
+    <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2020/src/main/java/one/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/main/java/one/Permutation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/one/PermutationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/one/SolvePuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/one/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-engine-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-params-5.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-engine-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2020/2020.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +26,14 @@
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,24 +47,46 @@
     </option>
   </component>
   <component name="ProjectId" id="1l3mJTCH9AscQMjes82W6QTaHRw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="one" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2020/src" />
+      <recent name="$PROJECT_DIR$/2020/src/main/java/01" />
+      <recent name="$PROJECT_DIR$/2020/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in 2020">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -52,6 +98,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in 2020" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="2020" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportRepairTest.findsUniquePairsFromAStreamThatMatchAPredicate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="one" />
+      <option name="MAIN_CLASS_NAME" value="one.ReportRepairTest" />
+      <option name="METHOD_NAME" value="findsUniquePairsFromAStreamThatMatchAPredicate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in 2020" />
+      <item itemvalue="JUnit.ReportRepairTest.findsUniquePairsFromAStreamThatMatchAPredicate" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ReportRepairTest.findsUniquePairsFromAStreamThatMatchAPredicate" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -61,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606834076413</updated>
-      <workItem from="1606834077627" duration="1837000" />
+      <workItem from="1606834077627" duration="7831000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1606834160547</created>
@@ -70,32 +149,108 @@
       <option name="project" value="LOCAL" />
       <updated>1606834160547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commit">
+      <created>1606838770400</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1606838770400</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="132" y="102" key="#Project_Structure" timestamp="1606838752171">
+    <state x="132" y="102" key="#Project_Structure" timestamp="1606840861534">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="132" y="102" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1606838752171" />
-    <state x="424" y="106" key="CommitChangelistDialog2" timestamp="1606834160379">
+    <state x="132" y="102" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1606840861534" />
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606842793053">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="424" y="106" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606834160379" />
+    <state x="304" y="184" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606842793053" />
+    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1606839486581">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606839486581" />
+    <state x="578" y="305" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606838833009">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="305" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606838833009" />
+    <state x="614" y="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606838846049">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="614" y="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1606838846049" />
+    <state x="655" y="0" width="590" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606843050102">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="655" y="0" width="590" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606843050102" />
+    <state x="424" y="106" key="CommitChangelistDialog2" timestamp="1606838770297">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="424" y="106" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606838770297" />
+    <state width="1638" height="376" key="GridCell.Tab.0.bottom" timestamp="1606844757410">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="376" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606844757410" />
+    <state width="1638" height="376" key="GridCell.Tab.0.center" timestamp="1606844757409">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="376" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606844757409" />
+    <state width="1638" height="376" key="GridCell.Tab.0.left" timestamp="1606844757408">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="376" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606844757408" />
+    <state width="1638" height="376" key="GridCell.Tab.0.right" timestamp="1606844757410">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="376" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606844757410" />
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1606843383475">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606843383475" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1606843383474">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606843383474" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1606843383473">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606843383473" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1606843383474">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606843383474" />
     <state x="328" y="103" key="SettingsEditor" timestamp="1606838709567">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="103" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1606838709567" />
+    <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606839795829">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1680.1050@0.0.1680.1050" timestamp="1606839795829" />
+    <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606839174662">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606839174662" />
+    <state width="600" height="428" key="javadoc.popup" timestamp="1606842288860">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="600" height="428" key="javadoc.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606842288860" />
     <state x="248" y="144" key="new project wizard" timestamp="1606838732279">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="248" y="144" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1606838732279" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606842004682">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606842004682" />
   </component>
 </project>
