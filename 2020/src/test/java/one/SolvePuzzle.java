@@ -15,12 +15,12 @@ import java.util.stream.Collectors;
 import static java.util.Arrays.stream;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class SolvePuzzle {
+public class SolvePuzzle {
 
     @Test
     void findsPairOfNumbersThatAddUpTo2020AndMultipliesThem() throws IOException, URISyntaxException {
-        String fileContent = readFileFromClasspath("one/input.txt");
-        Set<Integer> numbers = stream(fileContent.split("\\n")).map(Integer::parseInt).collect(Collectors.toSet());
+
+        Set<Integer> numbers = inputNumbers();
 
         Optional<Pair<Integer>> pairToMultiply =
                 Permutation.asPairs(numbers)
@@ -33,9 +33,14 @@ class SolvePuzzle {
         assertThat(pairToMultiply.get().l() * pairToMultiply.get().r()).isEqualTo(800139);
     }
 
-    public String readFileFromClasspath(final String fileName) throws IOException, URISyntaxException {
+    public static Set<Integer> inputNumbers() throws IOException, URISyntaxException {
+        String fileContent = readFileFromClasspath("one/input.txt");
+        return stream(fileContent.split("\\n")).map(Integer::parseInt).collect(Collectors.toSet());
+    }
+
+    public static String readFileFromClasspath(final String fileName) throws IOException, URISyntaxException {
         return new String(Files.readAllBytes(
-                Paths.get(getClass().getClassLoader()
+                Paths.get(PermutationTest.class.getClassLoader()
                         .getResource(fileName)
                         .toURI())));
     }}

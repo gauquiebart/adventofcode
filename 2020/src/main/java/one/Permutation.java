@@ -1,8 +1,13 @@
 package one;
 
+import two.Triplet;
+
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.stream.Stream;
+
+import static java.util.Arrays.asList;
 
 public class Permutation {
 
@@ -10,14 +15,24 @@ public class Permutation {
         return elements
                 .stream()
                 .flatMap(
-                        elem -> exclude(elem, elements)
+                        elem -> exclude(elements, elem)
                                 .stream()
                                 .map(otherElem -> Pair.of(elem, otherElem)));
     }
 
-    private static <T> Set<T> exclude(T elem, Set<T> elements) {
+    public static <T> Stream<Triplet<T>> asTriplets(Set<T> elements) {
+        return asPairs(elements)
+                .flatMap(
+                        pair -> exclude(elements, pair.l(), pair.r())
+                                .stream()
+                                .map(otherElem -> Triplet.of(pair.l(), pair.r(), otherElem)));
+    }
+
+    private static <T> Set<T> exclude(Set<T> elements, T... toExclude) {
         Set<T> result = new HashSet<>(elements);
-        result.remove(elem);
+        result.removeAll(asList(toExclude));
         return result;
     }
+
+
 }
