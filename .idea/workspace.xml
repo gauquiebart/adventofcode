@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2020/src/main/java/two/Triplet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/two/SolvePuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/main/java/four/PasswordPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/main/java/shared/ValueObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/main/java/three/PasswordPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/four/PasswordPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/four/SolvePuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/shared/Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/three/PasswordPolicyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/three/SolvePuzzle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/three/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/src/main/java/one/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/one/Permutation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/src/test/java/one/PermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/test/java/one/PermutationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2020/2020.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/main/java/one/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/one/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/main/java/one/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/one/Permutations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/main/java/two/Triplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/two/Triplet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/test/java/one/PermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/test/java/one/PermutationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2020/src/test/java/one/SolvePuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/test/java/one/SolvePuzzle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/test/java/two/SolvePuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/test/java/two/SolvePuzzle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
       </list>
@@ -50,8 +62,8 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -59,14 +71,19 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="four" />
+      <recent name="three" />
       <recent name="one" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="shared" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="two" />
@@ -80,7 +97,7 @@
       <recent name="$PROJECT_DIR$/2020/src/main/java" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in 2020">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,6 +117,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PasswordPolicyTest.ignoredIfSecondPositionIsLargerThanLengthOfPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2020" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="four.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="four" />
+      <option name="MAIN_CLASS_NAME" value="four.PasswordPolicyTest" />
+      <option name="METHOD_NAME" value="ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.All in 2020" />
+      <item itemvalue="JUnit.PasswordPolicyTest.ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PasswordPolicyTest.ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,7 +151,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606834076413</updated>
-      <workItem from="1606834077627" duration="10248000" />
+      <workItem from="1606834077627" duration="23229000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1606834160547</created>
@@ -132,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606844872344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="solve 2020 2 report repair">
+      <created>1606848951601</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606848951601</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,13 +191,14 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="solve 2020 1 report repair" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve 2020 1 report repair" />
+    <MESSAGE value="solve 2020 2 report repair" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve 2020 2 report repair" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="132" y="102" key="#Project_Structure" timestamp="1606840861534">
+    <state x="132" y="102" key="#Project_Structure" timestamp="1606932414393">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="132" y="102" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1606840861534" />
+    <state x="132" y="102" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1606932414393" />
     <state x="304" y="184" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606846017080">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -157,42 +207,46 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="581" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606845353412" />
-    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1606846228817">
+    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1606932973907">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606846228817" />
-    <state x="578" y="305" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606838833009">
+    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606932973907" />
+    <state x="578" y="305" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606932621586">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="578" y="305" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606838833009" />
+    <state x="578" y="305" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606932621586" />
+    <state x="465" y="211" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1606932410062">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="465" y="211" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606932410062" />
     <state x="614" y="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1606838846049">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="614" y="394" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1606838846049" />
-    <state x="655" y="0" width="590" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606843050102">
+    <state x="655" y="0" width="590" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1606932688742">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="655" y="0" width="590" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606843050102" />
-    <state x="243" y="178" key="CommitChangelistDialog2" timestamp="1606844872238">
+    <state x="655" y="0" width="590" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606932688742" />
+    <state x="243" y="178" key="CommitChangelistDialog2" timestamp="1606848951494">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="243" y="178" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606844872238" />
-    <state width="1638" height="277" key="GridCell.Tab.0.bottom" timestamp="1606846645425">
+    <state x="243" y="178" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606848951494" />
+    <state width="1638" height="323" key="GridCell.Tab.0.bottom" timestamp="1606934161178">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="277" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606846645425" />
-    <state width="1638" height="277" key="GridCell.Tab.0.center" timestamp="1606846645424">
+    <state width="1638" height="323" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606934161178" />
+    <state width="1638" height="323" key="GridCell.Tab.0.center" timestamp="1606934161176">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="277" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606846645424" />
-    <state width="1638" height="277" key="GridCell.Tab.0.left" timestamp="1606846645423">
+    <state width="1638" height="323" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606934161176" />
+    <state width="1638" height="323" key="GridCell.Tab.0.left" timestamp="1606934161175">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="277" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606846645423" />
-    <state width="1638" height="277" key="GridCell.Tab.0.right" timestamp="1606846645424">
+    <state width="1638" height="323" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606934161175" />
+    <state width="1638" height="323" key="GridCell.Tab.0.right" timestamp="1606934161177">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="277" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606846645424" />
+    <state width="1638" height="323" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606934161177" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1606843383475">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -213,18 +267,26 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="328" y="103" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1606838709567" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1606844876280">
+    <state width="500" height="445" key="SwitcherDM" timestamp="1606933019840">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606844876280" />
-    <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606839795829">
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1606933019840" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1606848954903">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1680.1050@0.0.1680.1050" timestamp="1606839795829" />
-    <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606839174662">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606848954903" />
+    <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606932403319">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606839174662" />
+    <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1680.1050@0.0.1680.1050" timestamp="1606932403319" />
+    <state x="463" y="139" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606933373168">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="463" y="139" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606933373167" />
+    <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1606933023563">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606933023563" />
     <state x="578" y="277" key="extract.method.dialog" timestamp="1606846345608">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -237,9 +299,20 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="248" y="144" key="new project wizard/0.0.1680.1050@0.0.1680.1050" timestamp="1606838732279" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606842004682">
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1606932725931">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606842004682" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1606932725931" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/2020/src/main/java/four/PasswordPolicy.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

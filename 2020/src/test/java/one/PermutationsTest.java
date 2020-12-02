@@ -9,7 +9,7 @@ import java.util.Set;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class PermutationTest {
+class PermutationsTest {
 
     @Test
     void generatesAllPairs() {
@@ -20,7 +20,7 @@ class PermutationTest {
 
         Set<String> elements = new HashSet<>(Arrays.asList(A, B, C, D));
 
-        assertThat(Permutation.asPairs(elements)).contains(
+        assertThat(Permutations.asPairs(elements)).contains(
                 Pair.of(A, B),
                 Pair.of(A, C),
                 Pair.of(A, D),
@@ -44,7 +44,7 @@ class PermutationTest {
 
         Set<String> elements = new HashSet<>(Arrays.asList(A, B, C, D));
 
-        assertThat(Permutation.asTriplets(elements)).contains(
+        assertThat(Permutations.asTriplets(elements)).contains(
                 Triplet.of(A, B, C),
                 Triplet.of(A, B, D),
                 Triplet.of(A, C, B),

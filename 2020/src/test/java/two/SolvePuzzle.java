@@ -1,6 +1,6 @@
 package two;
 
-import one.Permutation;
+import one.Permutations;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -19,7 +19,7 @@ class SolvePuzzle {
         Set<Integer> numbers = inputNumbers();
 
         Optional<Triplet<Integer>> tripletToMultiply =
-                Permutation.asTriplets(numbers)
+                Permutations.asTriplets(numbers)
                         .filter((triplet) -> triplet.a() + triplet.b() + triplet.c() == 2020)
                         .findAny();
 

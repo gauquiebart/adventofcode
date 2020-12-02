@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 import static java.util.Arrays.asList;
 
-public class Permutation {
+public class Permutations {
 
     static <T> Stream<Pair<T>> asPairs(Set<T> elements) {
         return elements
