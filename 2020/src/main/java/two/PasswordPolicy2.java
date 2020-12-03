@@ -1,23 +1,23 @@
-package four;
+package two;
 
 import shared.ValueObject;
 
 import java.util.function.Predicate;
 
-class PasswordPolicy extends ValueObject implements Predicate<String> {
+class PasswordPolicy2 extends ValueObject implements Predicate<String> {
 
     private final char allowedCharacter;
     private final int firstPositionToCheckForAllowedCharacter;
     private final int secondPositionToCheckForAllowedCharacter;
 
-    private PasswordPolicy(char allowedCharacter, int firstPositionToCheckForAllowedCharacter, int secondPositionToCheckForAllowedCharacter) {
+    private PasswordPolicy2(char allowedCharacter, int firstPositionToCheckForAllowedCharacter, int secondPositionToCheckForAllowedCharacter) {
         this.allowedCharacter = allowedCharacter;
         this.firstPositionToCheckForAllowedCharacter = firstPositionToCheckForAllowedCharacter;
         this.secondPositionToCheckForAllowedCharacter = secondPositionToCheckForAllowedCharacter;
     }
 
-    static PasswordPolicy of(char allowedCharacter, int firstPositionToCheckForAllowedCharacter, int secondPositionToCheckForAllowedCharacter) {
-        return new PasswordPolicy(allowedCharacter, firstPositionToCheckForAllowedCharacter, secondPositionToCheckForAllowedCharacter);
+    static PasswordPolicy2 of(char allowedCharacter, int firstPositionToCheckForAllowedCharacter, int secondPositionToCheckForAllowedCharacter) {
+        return new PasswordPolicy2(allowedCharacter, firstPositionToCheckForAllowedCharacter, secondPositionToCheckForAllowedCharacter);
     }
 
     @Override

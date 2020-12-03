@@ -1,6 +1,5 @@
-package two;
+package one;
 
-import one.Permutations;
 import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
@@ -8,10 +7,10 @@ import java.net.URISyntaxException;
 import java.util.Optional;
 import java.util.Set;
 
-import static one.SolvePuzzle.inputNumbers;
+import static one.SolvePuzzle1.inputNumbers;
 import static org.assertj.core.api.Assertions.assertThat;
 
-class SolvePuzzle {
+class SolvePuzzle2 {
 
     @Test
     void findsTripletsOfNumbersThatAddUpTo2020AndMultipliesThem() throws IOException, URISyntaxException {

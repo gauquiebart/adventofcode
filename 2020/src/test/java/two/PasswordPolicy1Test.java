@@ -1,34 +1,34 @@
-package three;
+package two;
 
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-class PasswordPolicyTest {
+class PasswordPolicy1Test {
 
     @Test
     void notValidIfCharacterIsNotPresent() {
-        assertThat(PasswordPolicy.of('a', 1, 1).test("bc")).isFalse();
+        assertThat(PasswordPolicy1.of('a', 1, 1).test("bc")).isFalse();
     }
 
     @Test
     void notValidIfCharacterLessPresentThanMinimumAllowed() {
-        assertThat(PasswordPolicy.of('a', 2, 1).test("abc")).isFalse();
+        assertThat(PasswordPolicy1.of('a', 2, 1).test("abc")).isFalse();
     }
 
     @Test
     void validIfNumberOfOccurencesOfCharacterEqualToMinimumAllowed() {
-        assertThat(PasswordPolicy.of('a', 2, 3).test("abac")).isTrue();
+        assertThat(PasswordPolicy1.of('a', 2, 3).test("abac")).isTrue();
     }
 
     @Test
     void validIfNumberOfOccurencesOfCharacterEqualToAtMostAllowed() {
-        assertThat(PasswordPolicy.of('a', 2, 3).test("abaca")).isTrue();
+        assertThat(PasswordPolicy1.of('a', 2, 3).test("abaca")).isTrue();
     }
 
     @Test
     void notValidIfNumberOfOccurencesOfCharacterMoreThanAtMostAllowed() {
-        assertThat(PasswordPolicy.of('a', 2, 3).test("abracadabra")).isFalse();
+        assertThat(PasswordPolicy1.of('a', 2, 3).test("abracadabra")).isFalse();
     }
 
 

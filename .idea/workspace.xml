@@ -1,24 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2020/src/main/java/four/PasswordPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/main/java/shared/ValueObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/main/java/three/PasswordPolicy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/four/PasswordPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/four/SolvePuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/shared/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/three/PasswordPolicyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/three/SolvePuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/three/input.txt" afterDir="false" />
+    <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="solve 2020 3 and 4 : password policies">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/2020.iml" beforeDir="false" afterPath="$PROJECT_DIR$/2020/2020.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/src/main/java/one/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/one/Pair.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/src/main/java/one/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/one/Permutations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/src/main/java/two/Triplet.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/two/Triplet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/src/test/java/one/PermutationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/test/java/one/PermutationsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/src/test/java/one/SolvePuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/test/java/one/SolvePuzzle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2020/src/test/java/two/SolvePuzzle.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/test/java/two/SolvePuzzle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,16 +101,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordPolicyTest.ignoredIfSecondPositionIsLargerThanLengthOfPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordPolicy2Test.ignoredIfSecondPositionIsLargerThanLengthOfPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="four.*" />
+          <option name="PATTERN" value="two.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="four" />
-      <option name="MAIN_CLASS_NAME" value="four.PasswordPolicyTest" />
+      <option name="PACKAGE_NAME" value="two" />
+      <option name="MAIN_CLASS_NAME" value="two.PasswordPolicy2Test" />
       <option name="METHOD_NAME" value="ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -135,11 +119,11 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in 2020" />
-      <item itemvalue="JUnit.PasswordPolicyTest.ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
+      <item itemvalue="JUnit.PasswordPolicy2Test.ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PasswordPolicyTest.ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
+        <item itemvalue="JUnit.PasswordPolicy2Test.ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +135,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606834076413</updated>
-      <workItem from="1606834077627" duration="23229000" />
+      <workItem from="1606834077627" duration="24127000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1606834160547</created>
@@ -181,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606848951601</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="solve 2020 3 and 4 : password policies">
+      <created>1606934521362</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606934521362</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +183,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="solve 2020 1 report repair" />
     <MESSAGE value="solve 2020 2 report repair" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve 2020 2 report repair" />
+    <MESSAGE value="solve 2020 3 and 4 : password policies" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve 2020 3 and 4 : password policies" />
   </component>
   <component name="WindowStateProjectService">
     <state x="132" y="102" key="#Project_Structure" timestamp="1606932414393">
@@ -227,42 +219,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="655" y="0" width="590" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606932688742" />
-    <state x="243" y="178" key="CommitChangelistDialog2" timestamp="1606848951494">
+    <state x="214" y="130" key="CommitChangelistDialog2" timestamp="1606934399143">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="243" y="178" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606848951494" />
-    <state width="1638" height="323" key="GridCell.Tab.0.bottom" timestamp="1606934161178">
+    <state x="214" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606934399143" />
+    <state width="1638" height="323" key="GridCell.Tab.0.bottom" timestamp="1606934386001">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="323" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606934161178" />
-    <state width="1638" height="323" key="GridCell.Tab.0.center" timestamp="1606934161176">
+    <state width="1638" height="323" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606934386001" />
+    <state width="1638" height="323" key="GridCell.Tab.0.center" timestamp="1606934386000">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="323" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606934161176" />
-    <state width="1638" height="323" key="GridCell.Tab.0.left" timestamp="1606934161175">
+    <state width="1638" height="323" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606934386000" />
+    <state width="1638" height="323" key="GridCell.Tab.0.left" timestamp="1606934386000">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="323" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606934161175" />
-    <state width="1638" height="323" key="GridCell.Tab.0.right" timestamp="1606934161177">
+    <state width="1638" height="323" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606934386000" />
+    <state width="1638" height="323" key="GridCell.Tab.0.right" timestamp="1606934386001">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="323" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606934161177" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1606843383475">
+    <state width="1638" height="323" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606934386001" />
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1606934343373">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606843383475" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1606843383474">
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1606934343373" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1606934343372">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606843383474" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1606843383473">
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1606934343372" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1606934343372">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606843383473" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1606843383474">
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1606934343372" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1606934343372">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606843383474" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1606934343372" />
     <state x="328" y="103" key="SettingsEditor" timestamp="1606838709567">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -271,10 +263,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1606933019840" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1606848954903">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1606934527397">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606848954903" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1606934527397" />
     <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606932403319">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>

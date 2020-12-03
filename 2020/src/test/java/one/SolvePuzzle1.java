@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 import static org.assertj.core.api.Assertions.assertThat;
 import static shared.Files.linesOf;
 
-public class SolvePuzzle {
+public class SolvePuzzle1 {
 
     @Test
     void findsPairOfNumbersThatAddUpTo2020AndMultipliesThem() {

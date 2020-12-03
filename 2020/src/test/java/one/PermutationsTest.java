@@ -1,7 +1,6 @@
 package one;
 
 import org.junit.jupiter.api.Test;
-import two.Triplet;
 
 import java.util.Arrays;
 import java.util.HashSet;
