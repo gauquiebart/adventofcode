@@ -26,7 +26,7 @@ class SolvePuzzle2 {
                 * numberOfTreesTraverse1Down3Right
                 * numberOfTreesTraverse1Down5Right
                 * numberOfTreesTraverse1Down7Right
-                * numberOfTreesTraverse2Down1Right).isEqualTo(12L);
+                * numberOfTreesTraverse2Down1Right).isEqualTo(3952291680L);
 
 
     }
