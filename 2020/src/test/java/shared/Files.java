@@ -17,11 +17,14 @@ public class Files {
         }
     }
 
-
-    public static String readFileFromClasspath(final String fileName) throws IOException, URISyntaxException {
+    public static String readFileFromClasspath(final String fileName) {
+        try {
         return new String(java.nio.file.Files.readAllBytes(
                 Paths.get(Files.class.getClassLoader()
                         .getResource(fileName)
                         .toURI())));
+        } catch (Exception ex) {
+            throw new RuntimeException(ex);
+        }
     }
 }
