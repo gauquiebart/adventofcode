@@ -16,7 +16,7 @@ public class PassportElement {
     }
 
     boolean isValid() {
-        return type.valid(rawValue);
+        return type.isValid(rawValue);
     }
 
     PassportElementType type() {
@@ -25,8 +25,9 @@ public class PassportElement {
 
     static List<PassportElement> parseFrom(String multiplePassportElements) {
         return stream(multiplePassportElements.split(" "))
-                .map(part -> new PassportElement(PassportElementType.of(part.split(":")[0]),
-                        part.split(":")[0]))
+                .map(part -> new PassportElement(
+                        PassportElementType.of(part.split(":")[0]),
+                        part.split(":")[1]))
                 .collect(Collectors.toList());
 
     }

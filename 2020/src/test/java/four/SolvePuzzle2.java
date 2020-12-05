@@ -22,8 +22,6 @@ public class SolvePuzzle2 {
                         .map(str -> str.replace("\n", " "))
                         .collect(Collectors.toList());
 
-        System.out.println(passwords);
-
         long numberOfValidPassports =
                 passwords
                 .stream()
@@ -32,7 +30,7 @@ public class SolvePuzzle2 {
                         .filter(passport -> passport.elements().stream().allMatch(PassportElement::isValid))
                 .count();
 
-        assertThat(numberOfValidPassports).isEqualTo(206L);
+        assertThat(numberOfValidPassports).isEqualTo(123L);
 
     }
 }
