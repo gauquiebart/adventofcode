@@ -1,11 +1,13 @@
 package four;
 
+import shared.ValueObject;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.util.Arrays.stream;
 
-public class PassportElement {
+public class PassportElement extends ValueObject {
 
     private final PassportElementType type;
     private final String rawValue;

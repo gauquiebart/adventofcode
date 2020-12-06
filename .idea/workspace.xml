@@ -1,17 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="solve day 4; puzzle 2">
-      <change afterPath="$PROJECT_DIR$/2020/src/main/java/five/SeatingPosition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/five/SeatingPositionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/five/SolvePuzzle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/five/input.txt" afterDir="false" />
+    <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="solve day 5">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/six/SolvePuzzle1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/six/SolvePuzzle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/six/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/six/testinput.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/main/java/four/Passport.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/four/Passport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/main/java/four/PassportElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/four/PassportElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/five/SeatingPosition$Interval.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/five/SeatingPosition$Interval.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/five/SeatingPosition.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/five/SeatingPosition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/Passport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/Passport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/four/PassportElementType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/four/PassportElementType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/one/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/one/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/one/Permutations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/one/Permutations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/one/Triplet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/one/Triplet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/shared/ValueObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/shared/ValueObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/three/GeologicalPattern$Element.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/three/GeologicalPattern$Element.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/three/GeologicalPattern.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/three/GeologicalPattern.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/two/PasswordPolicy1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/two/PasswordPolicy1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/two/PasswordPolicy2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/two/PasswordPolicy2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/five/SeatingPositionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/five/SeatingPositionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/five/SolvePuzzle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/five/SolvePuzzle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/four/PassportElementTypeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/four/PassportElementTypeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/four/SolvePuzzle1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/four/SolvePuzzle1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/four/SolvePuzzle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/four/SolvePuzzle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/one/PermutationsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/one/PermutationsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/one/SolvePuzzle1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/one/SolvePuzzle1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/one/SolvePuzzle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/one/SolvePuzzle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/shared/Files.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/shared/Files.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/three/GeologicalPatternTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/three/GeologicalPatternTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/three/SolvePuzzle1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/three/SolvePuzzle1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/three/SolvePuzzle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/three/SolvePuzzle2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/two/PasswordPolicy1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/two/PasswordPolicy1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/two/PasswordPolicy2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/two/PasswordPolicy2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/two/SolvePuzzle1$TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/two/SolvePuzzle1$TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/two/SolvePuzzle1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/two/SolvePuzzle1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/two/SolvePuzzle2$TestCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/two/SolvePuzzle2$TestCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/two/SolvePuzzle2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/two/SolvePuzzle2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -54,6 +103,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
@@ -63,7 +113,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -82,6 +132,7 @@
       <recent name="one" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="six" />
       <recent name="four" />
       <recent name="three" />
       <recent name="two" />
@@ -107,55 +158,57 @@
     </configuration>
     <configuration name="All in 2020" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="2020" />
+      <useClassPathOnly />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordPolicy2Test.ignoredIfSecondPositionIsLargerThanLengthOfPassword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolvePuzzle1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="two.*" />
+          <option name="PATTERN" value="six.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="two" />
-      <option name="MAIN_CLASS_NAME" value="two.PasswordPolicy2Test" />
-      <option name="METHOD_NAME" value="ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="six" />
+      <option name="MAIN_CLASS_NAME" value="six.SolvePuzzle1" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeatingPositionTest.row" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolvePuzzle2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="five.*" />
+          <option name="PATTERN" value="six.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="five" />
-      <option name="MAIN_CLASS_NAME" value="five.SeatingPositionTest" />
-      <option name="METHOD_NAME" value="row" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="six" />
+      <option name="MAIN_CLASS_NAME" value="six.SolvePuzzle2" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolvePuzzle.findMissingSeatID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolvePuzzle2.countTotalOfUniqueAnswersOfEachGroupWithTestInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2020" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="five.*" />
+          <option name="PATTERN" value="six.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="five" />
-      <option name="MAIN_CLASS_NAME" value="five.SolvePuzzle" />
-      <option name="METHOD_NAME" value="findMissingSeatID" />
+      <option name="PACKAGE_NAME" value="six" />
+      <option name="MAIN_CLASS_NAME" value="six.SolvePuzzle2" />
+      <option name="METHOD_NAME" value="countTotalOfUniqueAnswersOfEachGroupWithTestInput" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,15 +216,15 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.All in 2020" />
-      <item itemvalue="JUnit.PasswordPolicy2Test.ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
-      <item itemvalue="JUnit.SeatingPositionTest.row" />
-      <item itemvalue="JUnit.SolvePuzzle.findMissingSeatID" />
+      <item itemvalue="JUnit.SolvePuzzle1" />
+      <item itemvalue="JUnit.SolvePuzzle2" />
+      <item itemvalue="JUnit.SolvePuzzle2.countTotalOfUniqueAnswersOfEachGroupWithTestInput" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolvePuzzle.findMissingSeatID" />
-        <item itemvalue="JUnit.SeatingPositionTest.row" />
-        <item itemvalue="JUnit.PasswordPolicy2Test.ignoredIfSecondPositionIsLargerThanLengthOfPassword" />
+        <item itemvalue="JUnit.SolvePuzzle2.countTotalOfUniqueAnswersOfEachGroupWithTestInput" />
+        <item itemvalue="JUnit.SolvePuzzle2" />
+        <item itemvalue="JUnit.SolvePuzzle1" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +236,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606834076413</updated>
-      <workItem from="1606834077627" duration="44841000" />
+      <workItem from="1606834077627" duration="54507000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1606834160547</created>
@@ -255,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607158978320</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="solve day 5">
+      <created>1607169673284</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1607169673284</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,21 +331,22 @@
     <MESSAGE value="solve day 3" />
     <MESSAGE value="solve day 4; puzzle 1" />
     <MESSAGE value="solve day 4; puzzle 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve day 4; puzzle 2" />
+    <MESSAGE value="solve day 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve day 5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="132" y="102" key="#Project_Structure" timestamp="1606932414393">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="132" y="102" key="#Project_Structure/0.0.1680.1050@0.0.1680.1050" timestamp="1606932414393" />
-    <state x="304" y="184" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606846017080">
+    <state x="304" y="184" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607183169748">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="304" y="184" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1606846017080" />
-    <state x="581" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606845353412">
+    <state x="304" y="184" width="1071" height="706" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607183169748" />
+    <state x="581" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607250626373">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="581" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606845353412" />
+    <state x="581" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1607250626373" />
     <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1607168431902">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -306,62 +367,62 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="655" y="0" width="590" height="1050" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607110341755" />
-    <state x="603" y="231" key="#xdebugger.evaluate" timestamp="1607169459733">
+    <state x="730" y="405" width="635" height="585" key="#xdebugger.evaluate" timestamp="1607250446982">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="603" y="231" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1607169459733" />
+    <state x="730" y="405" width="635" height="585" key="#xdebugger.evaluate/0.0.1680.1050@0.0.1680.1050" timestamp="1607250446982" />
     <state x="214" y="130" key="CommitChangelistDialog2" timestamp="1606934399143">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="214" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606934399143" />
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1607169445177">
+    <state width="1638" height="334" key="GridCell.Tab.0.bottom" timestamp="1607275708723">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607169445177" />
+    <state width="1638" height="334" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607275708723" />
     <state width="1638" height="323" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1607158232889" />
-    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1607169445175">
+    <state width="1638" height="334" key="GridCell.Tab.0.center" timestamp="1607275708721">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607169445175" />
+    <state width="1638" height="334" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607275708721" />
     <state width="1638" height="323" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1607158232888" />
-    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1607169445175">
+    <state width="1638" height="334" key="GridCell.Tab.0.left" timestamp="1607275708721">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607169445175" />
+    <state width="1638" height="334" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607275708721" />
     <state width="1638" height="323" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1607158232887" />
-    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1607169445176">
+    <state width="1638" height="334" key="GridCell.Tab.0.right" timestamp="1607275708722">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607169445176" />
+    <state width="1638" height="334" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607275708722" />
     <state width="1638" height="323" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1607158232888" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1607169445695">
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1607250589492">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607169445695" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1607169445693">
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607250589492" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1607250589491">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607169445693" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1607169445692">
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607250589491" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1607250589491">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607169445692" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1607169445694">
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607250589491" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1607250589491">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607169445694" />
-    <state x="328" y="103" key="SettingsEditor" timestamp="1606992013583">
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607250589491" />
+    <state x="328" y="103" key="SettingsEditor" timestamp="1607183154938">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="328" y="103" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1606992013583" />
+    <state x="328" y="103" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1607183154938" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1607110355711">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1607110355711" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1607158982012">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1607169677581">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607158982012" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607169677581" />
     <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606932403319">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -370,10 +431,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="463" y="139" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1606933373167" />
-    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607157214286">
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607250116649">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607157214286" />
+    <state x="641" y="443" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607250116649" />
     <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607156767935">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -382,6 +443,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="714" y="477" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607157189059" />
+    <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1607247384323">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="541" y="280" width="597" height="490" key="find.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1607247384323" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1606842288860">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
