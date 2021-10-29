@@ -4,13 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="solve day 6">
-      <change afterPath="$PROJECT_DIR$/2020/src/main/java/seven/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/main/java/seven/CanHoldBagSpecification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/seven/CanHoldBagSpecificationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/seven/SolvePuzzle1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2020/src/test/java/seven/testinput.txt" afterDir="false" />
+    <list default="true" id="6d45a92e-76ff-4a17-9d32-068ff1d1bef1" name="Default Changelist" comment="solve day 7, puzzle 1">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/seven/SolvePuzzle2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/src/test/java/seven/testinput2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/main/java/seven/CanHoldBagSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/main/java/seven/CanHoldBagSpecification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/src/test/java/seven/CanHoldBagSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/2020/src/test/java/seven/CanHoldBagSpecificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/2020/seven/CanHoldBagSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/2020/seven/CanHoldBagSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/2020/seven/CanHoldBagSpecificationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/2020/seven/CanHoldBagSpecificationTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +31,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,7 +49,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1l3mJTCH9AscQMjes82W6QTaHRw" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -62,6 +64,7 @@
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -105,18 +108,7 @@
       <recent name="$PROJECT_DIR$/2020/src/main/java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in 2020">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.SolvePuzzle2.countNumberOfBagsThatCanTheShinyGoldBagHoldsForTestInput">
     <configuration name="All in 2020" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="2020" />
       <useClassPathOnly />
@@ -177,6 +169,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SolvePuzzle2.countNumberOfBagsThatCanTheShinyGoldBagHoldsForTestInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="2020" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="seven.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="seven" />
+      <option name="MAIN_CLASS_NAME" value="seven.SolvePuzzle2" />
+      <option name="METHOD_NAME" value="countNumberOfBagsThatCanTheShinyGoldBagHoldsForTestInput" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolvePuzzle2.countTotalOfUniqueAnswersOfEachGroupWithTestInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="2020" />
       <extension name="coverage">
@@ -199,9 +209,11 @@
       <item itemvalue="JUnit.SolvePuzzle2" />
       <item itemvalue="JUnit.SolvePuzzle2.countTotalOfUniqueAnswersOfEachGroupWithTestInput" />
       <item itemvalue="JUnit.CanHoldBagSpecificationTest.canParse" />
+      <item itemvalue="JUnit.SolvePuzzle2.countNumberOfBagsThatCanTheShinyGoldBagHoldsForTestInput" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SolvePuzzle2.countNumberOfBagsThatCanTheShinyGoldBagHoldsForTestInput" />
         <item itemvalue="JUnit.CanHoldBagSpecificationTest.canParse" />
         <item itemvalue="JUnit.SolvePuzzle2.countTotalOfUniqueAnswersOfEachGroupWithTestInput" />
         <item itemvalue="JUnit.SolvePuzzle2" />
@@ -217,7 +229,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606834076413</updated>
-      <workItem from="1606834077627" duration="60702000" />
+      <workItem from="1606834077627" duration="64091000" />
+      <workItem from="1608048903367" duration="37000" />
+      <workItem from="1608116046956" duration="286000" />
+      <workItem from="1608555356417" duration="706000" />
+      <workItem from="1609853392145" duration="32000" />
+      <workItem from="1635322797408" duration="12000" />
+      <workItem from="1635355293125" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1606834160547</created>
@@ -303,11 +321,30 @@
       <option name="project" value="LOCAL" />
       <updated>1607275785783</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="solve day 7, puzzle 1">
+      <created>1607326862786</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1607326862786</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -321,7 +358,8 @@
     <MESSAGE value="solve day 4; puzzle 2" />
     <MESSAGE value="solve day 5" />
     <MESSAGE value="solve day 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="solve day 6" />
+    <MESSAGE value="solve day 7, puzzle 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="solve day 7, puzzle 1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="132" y="102" key="#Project_Structure" timestamp="1606932414393">
@@ -336,10 +374,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="581" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1607250626373" />
-    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1607323987479">
+    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser" timestamp="1607338251526">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1607323987479" />
+    <state x="653" y="245" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1607338251526" />
     <state x="578" y="305" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1606932621586">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -364,42 +402,42 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="214" y="130" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1606934399143" />
-    <state width="1638" height="334" key="GridCell.Tab.0.bottom" timestamp="1607325950760">
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1607418007719">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="334" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607325950760" />
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607418007719" />
     <state width="1638" height="334" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1607324390623" />
-    <state width="1638" height="334" key="GridCell.Tab.0.center" timestamp="1607325950759">
+    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1607418007717">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="334" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607325950759" />
+    <state width="1638" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607418007717" />
     <state width="1638" height="334" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1607324390620" />
-    <state width="1638" height="334" key="GridCell.Tab.0.left" timestamp="1607325950758">
+    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1607418007713">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="334" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607325950758" />
+    <state width="1638" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607418007713" />
     <state width="1638" height="334" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1607324390620" />
-    <state width="1638" height="334" key="GridCell.Tab.0.right" timestamp="1607325950759">
+    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1607418007718">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="334" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607325950759" />
+    <state width="1638" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607418007718" />
     <state width="1638" height="334" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1607324390621" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1607325820067">
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1607418007723">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607325820067" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1607325820066">
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1607418007723" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1607418007720">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607325820066" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1607325820066">
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1607418007720" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1607418007719">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607325820066" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1607325820067">
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1607418007719" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1607418007720">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607325820067" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1607418007720" />
     <state x="328" y="103" key="SettingsEditor" timestamp="1607183154938">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -408,10 +446,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1607110355711" />
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1607276322870">
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2" timestamp="1607326864638">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607276322870" />
+    <state x="440" y="262" key="Vcs.Push.Dialog.v2/0.0.1680.1050@0.0.1680.1050" timestamp="1607326864638" />
     <state x="553" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1606932403319">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -428,10 +466,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="619" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607324266194" />
-    <state x="714" y="477" key="extract.method.dialog" timestamp="1607157189059">
+    <state x="714" y="477" key="extract.method.dialog" timestamp="1607326781456">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state x="714" y="477" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607157189059" />
+    <state x="714" y="477" key="extract.method.dialog/0.0.1680.1050@0.0.1680.1050" timestamp="1607326781456" />
     <state x="541" y="280" width="597" height="490" key="find.popup" timestamp="1607247384323">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -467,9 +505,9 @@
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/2020/src/main/java/seven/CanHoldBagSpecification.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="20" />
+          <url>file://$PROJECT_DIR$/2020/src/test/java/seven/SolvePuzzle2.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

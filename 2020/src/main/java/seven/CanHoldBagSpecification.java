@@ -9,10 +9,24 @@ import java.util.regex.Pattern;
 
 class CanHoldBagSpecification extends ValueObject {
 
-    private final Bag subject;
-    private final Set<Bag> canHoldBags;
+    static class CanHoldANumberOfBags extends ValueObject {
+        private final Bag bag;
+        private final Integer number;
 
-    private CanHoldBagSpecification(Bag subject, Set<Bag> canHoldBags) {
+        private CanHoldANumberOfBags(Bag bag, Integer number) {
+            this.bag = bag;
+            this.number = number;
+        }
+
+        static CanHoldANumberOfBags of(Bag bag, Integer number) {
+            return new CanHoldANumberOfBags(bag, number);
+        }
+    }
+
+    private final Bag subject;
+    private final Set<CanHoldANumberOfBags> canHoldBags;
+
+    private CanHoldBagSpecification(Bag subject, Set<CanHoldANumberOfBags> canHoldBags) {
         this.subject = subject;
         this.canHoldBags = new HashSet<>(canHoldBags);
     }
@@ -21,8 +35,8 @@ class CanHoldBagSpecification extends ValueObject {
         return new CanHoldBagSpecification(subject, new HashSet<>());
     }
 
-    CanHoldBagSpecification canAlsoHold(Bag otherBag) {
-        Set<Bag> allBagsSubjectCanHold = new HashSet<>(canHoldBags);
+    CanHoldBagSpecification canAlsoHold(CanHoldANumberOfBags otherBag) {
+        Set<CanHoldANumberOfBags> allBagsSubjectCanHold = new HashSet<>(canHoldBags);
         allBagsSubjectCanHold.add(otherBag);
         return new CanHoldBagSpecification(subject, allBagsSubjectCanHold);
     }
@@ -32,7 +46,8 @@ class CanHoldBagSpecification extends ValueObject {
     }
 
     boolean canHold(Bag aBag) {
-        return canHoldBags.contains(aBag);
+        return canHoldBags
+                .stream().anyMatch(canHoldANumberOfBags -> aBag.equals(canHoldANumberOfBags.bag));
     }
 
     static CanHoldBagSpecification parseFrom(String str) {
@@ -43,11 +58,11 @@ class CanHoldBagSpecification extends ValueObject {
             result = of(Bag.of(subject));
         } else {
             String[] otherBagsItCanHold = canHolds.replace(".", "").split(", ");
-            Pattern pattern = Pattern.compile("\\d+ (\\w+ \\w+) bag[s]{0,1}");
+            Pattern pattern = Pattern.compile("(\\d+) (\\w+ \\w+) bag[s]{0,1}");
             for (String otherBag: otherBagsItCanHold) {
                 Matcher matcher = pattern.matcher(otherBag);
                 matcher.matches();
-                result = result.canAlsoHold(Bag.of(matcher.group(1)));
+                result = result.canAlsoHold(CanHoldANumberOfBags.of(Bag.of(matcher.group(2)), Integer.parseInt(matcher.group(1))));
             }
         }
         return result;
